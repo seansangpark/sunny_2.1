@@ -4,14 +4,14 @@ import { PhoneNumberLink } from '../../components';
 import './Footer.css';
 
 const Footer = () => {
-  const phoneNumber = '+1-704-941-1977';
+  const phoneNumber = '+1-704-551-6222';
 
   const handleAddressClick = (e) => {
     // Prevent the default behavior of the button click
     e.preventDefault();
 
     // URL for Sunny Dry cleaners & Alterations on Google Maps
-    const mapURL = 'https://goo.gl/maps/wJinyoHupmJLHfaz8';
+    const mapURL = 'https://maps.app.goo.gl/b6fyzNiCgYAFEp1G7';
 
     // Check if the user is on an iPhone
     const isiPhone = /iPhone|iPod/.test(navigator.userAgent);
@@ -48,7 +48,7 @@ const Footer = () => {
             style={{ cursor: 'pointer' }}
             onClick={handleAddressClick}
           >
-            12744 Lancaster Hwy C, Pineville, NC 28134
+            7631 Sharon Lakes Rd Ste. O, Charlotte, NC 28210
           </p>
           <br />
           <p className='p__opensans'>
@@ -58,18 +58,18 @@ const Footer = () => {
 
         <div className='app__footer-links_logo'>
           <img
-            src={images.pro}
+            src={images.sunny_logo}
             alt='footer_logo'
           />
           <p className='p__opensans'>
-            Let us take care of them so you can shine, wrinkle-free.
+            Now Offering: Same Day Service & Pick-Up and Delivery
           </p>
         </div>
 
         <div className='app__footer-links_work'>
           <h1 className='app__footer-headtext'>Working Hours</h1>
           <p className='p__opensans'>Monday-Friday:</p>
-          <p className='p__opensans'>8:00 aM - 6:30 pM</p>
+          <p className='p__opensans'>6:30 aM - 6:00 pM</p>
           <p className='p__opensans'>Saturday:</p>
           <p className='p__opensans'>9:00 aM- 3:00 pM</p>
         </div>
