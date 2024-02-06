@@ -4,14 +4,14 @@ import { SubHeading, PhoneNumberLink } from '../../components';
 import { images } from '../../constants';
 
 const SunnyCleaners = () => {
-  const phoneNumber = '+1-704-551-6222';
+  const phoneNumber = '+1-704-941-1977';
 
   const handleAddressClick = (e) => {
     // Prevent the default behavior of the button click
     e.preventDefault();
 
     // URL for Sunny Dry cleaners & Alterations on Google Maps
-    const mapURL = 'https://goo.gl/maps/nfSTFvjUqRQwubjq5';
+    const mapURL = 'https://maps.app.goo.gl/5EzdHRAfmnQESPSS9';
 
     // Check if the user is on an iPhone
     const isiPhone = /iPhone|iPod/.test(navigator.userAgent);
@@ -42,18 +42,18 @@ const SunnyCleaners = () => {
     >
       <div className='app__wrapper_img'>
         <img
-          src={images.sunny}
-          alt='sunny_cleaners'
+          src={images.welcome}
+          alt='pro_cleaners'
         />
       </div>
 
       <div className='app__wrapper_info'>
-        <SubHeading title='Come visit our sister store' />
+        <SubHeading title='Come visit our sister store in Pineville' />
         <h1
           className='headtext__cormorant'
           style={{ marginBottom: '3rem' }}
         >
-          Sunny Dry Cleaners
+          Pro Dry Cleaners
         </h1>
         <div className='app__wrapper-content'>
           <p
@@ -61,7 +61,7 @@ const SunnyCleaners = () => {
             style={{ cursor: 'pointer' }}
             onClick={handleAddressClick}
           >
-            7631 Sharon Lakes Rd Ste. O, Charlotte, North Carolina 28210
+            12744 Lancaster Hwy C, Pineville, NC 28134
           </p>
           <br />
           <p className='p__opensans'>
@@ -73,7 +73,7 @@ const SunnyCleaners = () => {
           >
             Opening Hours
           </p>
-          <p className='p__opensans'>Mon - Fri: 6:30 aM - 6:00 pM</p>
+          <p className='p__opensans'>Mon - Fri: 8:00 aM - 6:30 pM</p>
           <p className='p__opensans'>Saturday: 9:00 aM - 3:00 pM</p>
           <p className='p__opensans'>Sunday: Closed</p>
         </div>
