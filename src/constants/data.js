@@ -1,5 +1,3 @@
-import images from './images';
-
 const dry_cleanings = [
   {
     title: '3/4 Coat',
@@ -244,4 +242,5 @@ const customer_reviews = [
   },
 ];
 
+/* eslint import/no-anonymous-default-export: [2, {"allowObject": true}] */
 export default { dry_cleanings, repairs, customer_reviews };
