@@ -10,12 +10,11 @@ const AboutUs = () => (
   >
     <div className='app__aboutus-content flex__center'>
       <div className='app__aboutus-content_about'>
-        <h1 className='headtext__cormorant'>About Us</h1>
+        <h1 className='headtext__cormorant'>Wash and Fold</h1>
         <p className='p__opensans'>
-          Hey there, welcome to Sunny Cleaners in Charlotte! We are offering
-          fast and reliable dry cleaning services door to door at your
-          convenience. We have same day service as well as top notch pick-up and
-          delivery service
+          Hey there, welcome to Sunny Cleaners in Charlotte! We are now offering
+          Wash and Fold service. Come visit us now and get your laundry done
+          easy with most affordable price in all Charlotte!
         </p>
       </div>
 
@@ -27,12 +26,11 @@ const AboutUs = () => (
       </div>
 
       <div className='app__aboutus-content_history'>
-        <h1 className='headtext__cormorant'>Our Motto</h1>
+        <h1 className='headtext__cormorant'>FREE Pick Up and Delivery</h1>
         <p className='p__opensans'>
-          At Sunny Dry Cleaners & Alterations, we radiate positivity through
-          unparalleled laundry and garment care. With a focus on excellence,
-          environmental responsibility, and customer satisfaction, we brighten
-          lives and wardrobes with renewed freshness.
+          We are now offering fast and reliable dry cleaning services door to
+          door at your convenience. We have same day service as well as top
+          notch pick-up and delivery service. Call us now!
         </p>
       </div>
     </div>
